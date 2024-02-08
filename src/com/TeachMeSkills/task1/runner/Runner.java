@@ -15,7 +15,7 @@ public class Runner {
 
 
         Client client = FabricForClient.createClient();
-
+        System.out.println("   ");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Клиент " + client.name + " " + client.surname + ". Введи количество желаемых карт: ");
 
